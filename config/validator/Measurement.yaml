@@ -1,0 +1,20 @@
+App\Entity\Measurement: 
+
+  properties:
+    celsius:
+      - Range: 
+          min: -273
+          max: 470
+      - NotBlank: ~
+    pressure:
+      - Range: 
+                min: 500
+                max: 1200
+      - NotBlank: ~
+    rainfall:
+      - Range: 
+                min: 0
+                max: 100
+      - NotBlank: ~
+    location:
+      - NotBlank: ~
